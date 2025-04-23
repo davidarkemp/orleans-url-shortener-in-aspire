@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <PublishAot>false</PublishAot>
+        <InvariantGlobalization>true</InvariantGlobalization>
+        <ServerGarbageCollection>true</ServerGarbageCollection>
+        <ConcurrentGarbageCollection>true</ConcurrentGarbageCollection>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="Aspire.StackExchange.Redis" Version="9.2.0" />
+        <PackageReference Include="Microsoft.Orleans.Clustering.Redis" Version="9.1.2" />
+        <PackageReference Include="Microsoft.Orleans.Persistence.Redis" Version="9.1.2" />
+        <PackageReference Include="Microsoft.Orleans.Server" Version="9.1.2"/>
+        <PackageReference Include="OrleansDashboard" Version="8.2.0" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\ OrleansUrlShortener.Aspire.ServiceDefaults\OrleansUrlShortener.Aspire.ServiceDefaults.csproj" />
+      <ProjectReference Include="..\OrleansUrlShortener.Common\OrleansUrlShortener.Common.csproj" />
+    </ItemGroup>
+</Project>

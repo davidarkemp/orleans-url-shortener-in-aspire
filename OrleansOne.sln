@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansURLShortener", "OrleansURLShortener\OrleansURLShortener.csproj", "{D598F00A-FE6D-433B-B2B7-9010778E344F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansUrlShortener.Common", "OrleansUrlShortener.Common\OrleansUrlShortener.Common.csproj", "{0FB20724-E861-4CF3-947A-5C47AA4912E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansUrlShortener.Server", "OrleansUrlShortener.Server\OrleansUrlShortener.Server.csproj", "{FA73E0BC-0EE2-4382-8868-150664E77B03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansUrlShortener.Aspire.AppHost", "OrleansUrlShortener.Aspire.AppHost\OrleansUrlShortener.Aspire.AppHost.csproj", "{5D844DE4-C01A-4C42-8444-E06D5245877A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansUrlShortener.Aspire.ServiceDefaults", " OrleansUrlShortener.Aspire.ServiceDefaults\OrleansUrlShortener.Aspire.ServiceDefaults.csproj", "{032DE15C-114D-47C8-9556-48438C7EB8EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D598F00A-FE6D-433B-B2B7-9010778E344F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D598F00A-FE6D-433B-B2B7-9010778E344F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D598F00A-FE6D-433B-B2B7-9010778E344F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D598F00A-FE6D-433B-B2B7-9010778E344F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FB20724-E861-4CF3-947A-5C47AA4912E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FB20724-E861-4CF3-947A-5C47AA4912E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FB20724-E861-4CF3-947A-5C47AA4912E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FB20724-E861-4CF3-947A-5C47AA4912E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA73E0BC-0EE2-4382-8868-150664E77B03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA73E0BC-0EE2-4382-8868-150664E77B03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA73E0BC-0EE2-4382-8868-150664E77B03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA73E0BC-0EE2-4382-8868-150664E77B03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D844DE4-C01A-4C42-8444-E06D5245877A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D844DE4-C01A-4C42-8444-E06D5245877A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D844DE4-C01A-4C42-8444-E06D5245877A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D844DE4-C01A-4C42-8444-E06D5245877A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{032DE15C-114D-47C8-9556-48438C7EB8EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{032DE15C-114D-47C8-9556-48438C7EB8EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{032DE15C-114D-47C8-9556-48438C7EB8EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{032DE15C-114D-47C8-9556-48438C7EB8EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
