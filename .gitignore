@@ -3,3 +3,4 @@ obj/
 .idea/
 docker-compose.yaml
 .env
+*.DotSettings.user
