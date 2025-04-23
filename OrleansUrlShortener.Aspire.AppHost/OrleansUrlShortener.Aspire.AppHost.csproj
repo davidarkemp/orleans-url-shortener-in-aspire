@@ -19,7 +19,7 @@
     <ItemGroup>
       <ProjectReference Include="..\OrleansUrlShortener.Common\OrleansUrlShortener.Common.csproj" IsAspireProjectResource="false" />
       <ProjectReference Include="..\OrleansUrlShortener.Server\OrleansUrlShortener.Server.csproj" />
-      <ProjectReference Include="..\OrleansURLShortener\OrleansURLShortener.csproj" />
+      <ProjectReference Include="..\OrleansUrlShortener.Api\OrleansUrlShortener.Api.csproj" />
     </ItemGroup>
 
 </Project>

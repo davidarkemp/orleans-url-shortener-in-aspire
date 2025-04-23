@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansURLShortener", "OrleansURLShortener\OrleansURLShortener.csproj", "{D598F00A-FE6D-433B-B2B7-9010778E344F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansUrlShortener.Api", "OrleansUrlShortener.Api\OrleansUrlShortener.Api.csproj", "{D598F00A-FE6D-433B-B2B7-9010778E344F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansUrlShortener.Common", "OrleansUrlShortener.Common\OrleansUrlShortener.Common.csproj", "{0FB20724-E861-4CF3-947A-5C47AA4912E6}"
 EndProject

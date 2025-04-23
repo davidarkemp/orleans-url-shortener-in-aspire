@@ -11,11 +11,11 @@ var orleans = builder.AddOrleans("default")
 var server =
     builder.AddProject<Projects.OrleansUrlShortener_Server>("backend")
         .WithReference(orleans)
-        .WithReplicas(3);
+        .WithReplicas(5);
 
-builder.AddProject<Projects.OrleansURLShortener>("api")
+builder.AddProject<Projects.OrleansUrlShortener_Api>("api")
     .WithExternalHttpEndpoints()
     .WithReference(orleans.AsClient())
     .WaitFor(server);
 
-builder.Build().Run();
+await builder.Build().RunAsync();
