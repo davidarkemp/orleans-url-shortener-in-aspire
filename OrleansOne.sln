@@ -10,6 +10,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansUrlShortener.Aspire.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansUrlShortener.Aspire.ServiceDefaults", " OrleansUrlShortener.Aspire.ServiceDefaults\OrleansUrlShortener.Aspire.ServiceDefaults.csproj", "{032DE15C-114D-47C8-9556-48438C7EB8EF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFiles", "SolutionFiles", "{28B5464B-2374-4622-A571-6E856A24E3A6}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		global.json = global.json
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

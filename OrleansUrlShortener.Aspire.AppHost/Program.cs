@@ -18,6 +18,4 @@ builder.AddProject<Projects.OrleansURLShortener>("api")
     .WithReference(orleans.AsClient())
     .WaitFor(server);
 
-builder.AddDockerComposePublisher();
-
 builder.Build().Run();
